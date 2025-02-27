@@ -78,6 +78,7 @@
             cursor: pointer;
             position: relative;
             z-index: 9999;
+            transition: 1s;
         }
         button:active{
             color: aliceblue !important;
@@ -87,6 +88,7 @@
         button:hover{
             color: red;
             background-color: blue;
+            width: 100px;
         }
 
       
