@@ -1,0 +1,292 @@
+<html lang="en">
+<head>
+   
+    <style>
+        body{
+            margin: 100px;
+            background-color: black;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+
+        }
+
+        .g{
+            color: antiquewhite;
+            font-family:serif;
+            font-weight: 500;
+            font-size: 50px;
+        }
+
+        #aa{
+            color: red;
+            font-size: 50px;
+        }
+
+        .a1{
+            background-color: white;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+
+        #p1{
+            font-family: Tahoma;
+            font-size: 40px;
+            font-weight: bold;
+        }
+
+        .p2{
+            font-family: Arial;
+            margin:0%;
+            line-height: 1.5;
+
+        }
+
+        .p2-1{
+            font-size: 40px; 
+            font-weight: bold;
+        }
+
+        .p2-2{
+            color: red; 
+            font-style: italic; 
+            font-weight: 500;
+        }
+        
+
+        .p4{
+            margin:0%;
+            line-height: 1.2;
+
+        }
+
+        .p5{
+            font-family: Verdana;
+            font-weight: bold;
+            
+        }
+
+        #p6{
+            font-size: small;
+            font-weight: 500;
+            color: rgb(138, 137, 136);
+
+        }
+        button{
+            cursor: pointer;
+            position: relative;
+            z-index: 9999;
+        }
+        button:active{
+            color: aliceblue !important;
+            background-color: red !important;
+        }
+
+        button:hover{
+            color: red;
+            background-color: blue;
+        }
+
+      
+        
+        .b1, .b2{
+            position: relative; 
+            z-index: 10; 
+        }
+
+        .b1{
+            color: white;
+            border-radius: 5px;
+            padding: 5px;
+            width: 90px;
+            height: 30px;
+            background-color: green;
+            border: solid 1px green;
+
+        }
+
+        .b2{
+            color: aliceblue;
+            background-color:rgb(48, 115, 240);
+            border: 1px solid rgb(48, 115, 240);
+            border-radius: 20px;
+            width: 50px;
+            height: 30px;
+            margin-top: 5px;
+        }
+
+        .a2{
+           
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            font-family: Arial;
+            gap:2px;
+        }
+
+        #p7{
+            font-size: 30px;
+            font-weight: bold;
+            margin-bottom: 2px;
+        }
+
+        #p8{
+            color: black;
+            font-weight: 530;
+        }
+
+        .a2 a{
+            text-decoration: none;
+            color: blue;
+        }
+
+        .a2 a:hover{
+            color: red;
+        }
+
+        .a2 a:active{
+            color: grey;
+        }
+        
+
+        .a3 p{
+            margin: 2px;
+        }
+
+        #p9{
+            color: orange;
+            font-size: 13px;
+            font-weight: 500;
+
+        }
+        
+        #p10{
+            font-size: 20px;
+            font-weight: bold;
+        }
+        
+        #p11{
+            font-size: 40px;
+            font-weight: bold;
+        }
+
+        #p12{
+            font-size: 13px;
+            color: rgb(77, 77, 77);
+
+        }
+
+        
+
+        .a4{
+            background-color: white;
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: nowrap;
+            gap: 5px;
+            font-weight: 500px;
+            align-items: flex-start;
+        
+            
+
+        }
+
+        .a4 span{
+            display: inline-block;
+            padding: 3px;
+            gap: 2px;
+        }
+
+        .row{
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+        #s1{
+            color: black;
+            font-size: 30px;
+        }
+
+        #s2{
+            color: rgb(123, 121, 121);
+            position: relative;
+            top: 5px;
+        }
+
+        #s3{
+            color: green;
+        }
+        #s4{
+            color: rgb(60, 60, 60);
+        }
+        #s5{
+            color: red;
+        }
+
+      
+
+
+    </style>
+
+
+</head>
+<body>
+
+
+
+    <p class="g">5a. font = Tahoma </p>
+    <div class="a1">
+        <p id="p1">This is tahoma Font </p>
+    </div>
+    
+    <p class="g">5b. font = Arial</p>
+    <div class="a1">
+        <p class="p2 p2-1">Biggest Deals of the Year!</p>
+        <p class="p2 p2-2">Sales end Tuesday</p>
+    </div> 
+
+    <p class="g">5c. font = Verdana</p>
+    <div class="a1">
+        <p class="p4 p5">HTML Course </p> 
+        <p class="p4 p5" id="p6">Beginner to Pro</p>
+        <p style="font-weight: 500;">In this course, we'll learn the skills <br>
+        you need to become a developer:</p>
+        <button class="b1"> Get Started</button>
+    </div>
+    <p class="g">5. font = Arial</p>
+    <div class="a1 a2">
+        <p id="p7">Shopping for your business?</p>
+       <p id="p8">See how apple at work can help. </p> 
+        <a href="#">Learn more ></a>
+
+    </div>
+
+
+    <a href="#" id="aa">Challenge Exercise</a>
+
+    <p class="g">5.e All use font-family Arial.</p>
+    <div class="a1 a2 a3">
+        <p id="p9">New</p>
+        <p id="p10">MacBook Pro</p>
+        <p id="p11">Supercharged for pros.</p>  
+        <p id="p12">From $1999</p>
+        <button class="b2">Buy</button>
+
+    </div>
+
+    <p>5f.</p>
+    <div class="a4">
+        <div class="row"> 
+        <span id="s1">1,049.61</span> <span id="s2">USD</span> 
+    </div>
+        <div id="s3">+18.05 (1.57%) today</div>
+    
+    <div class="row"> 
+        <span id="s4">After hours 1,048.00</span> <span id="s5">-1.61 (0.15%)</span>
+    </div>
+    </div>
+    
+</body>
+</html>
